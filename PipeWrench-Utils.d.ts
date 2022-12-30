@@ -1,5 +1,4 @@
-declare module 'PipeWrench-Utils' {
-  
+declare module '@memoraike/pipewrench-utils' {
   export const syncCallback: {
     /** @noSelf */
     add(callback: () => void): void;
@@ -10,9 +9,7 @@ declare module 'PipeWrench-Utils' {
 
   /** @noSelf */
   export const isPipeWrenchLoaded: () => boolean;
-}
 
- declare module 'PipeWrench-Utils' {
   /**
    * @noSelf
    * @author Konijima
